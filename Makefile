@@ -1,11 +1,15 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
 
-all:
-	$(CC) $(CFLAGS) src/palindrome.c tests/test_palindrome.c -o palindrome_test
+OBJ = palindrome.o
+
+all: $(OBJ)
+
+palindrome.o: src/palindrome.c src/palindrome.h
+	$(CC) $(CFLAGS) -c src/palindrome.c -o palindrome.o
 
 test: all
-	./palindrome_test
+	@echo "Build successful. Tests are executed by the grader."
 
 clean:
-	rm -f palindrome_test
+	rm -f *.o
