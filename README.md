@@ -37,5 +37,3 @@ check_if_palindrome("I went there")-> 0
 ```
 
 ---
-
-Just tell me what you want next.
