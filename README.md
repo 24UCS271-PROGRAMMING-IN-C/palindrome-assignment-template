@@ -1,7 +1,5 @@
 ## **Palindrome Checker in C**
 
----
-
 ### Problem Statement
 
 Write a C program that determines whether a given string is a **palindrome**.
