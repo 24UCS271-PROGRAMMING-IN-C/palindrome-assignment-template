@@ -1,6 +1,4 @@
-### Assignment Title
-
-**Palindrome Checker in C**
+## **Palindrome Checker in C**
 
 ---
 
