@@ -29,11 +29,11 @@ Return value:
 ### Examples
 
 ```
-check_if_palindrome("abba")        → 1
-check_if_palindrome("malayalam")   → 1
-check_if_palindrome("bean")        → 0
-check_if_palindrome("race car")    → 1
-check_if_palindrome("I went there")-> 0
+check_if_palindrome("abba")        => 1
+check_if_palindrome("malayalam")   => 1
+check_if_palindrome("bean")        => 0
+check_if_palindrome("race car")    => 1
+check_if_palindrome("I went there")=> 0
 ```
 
 ---
